@@ -1,0 +1,90 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+    background-color: lightblue;
+}
+.container
+{
+    max-width: 1000px;
+    margin: 0px auto;
+}
+.container>header
+{
+    width: 800px;
+    margin: 0px auto;
+    background-image: url('khung.jfif');
+    background-size: 100% 100%;
+    padding: 10%;
+}
+.container>nav
+{
+    line-height: 40px;
+    background-color:rgb(141, 141, 231);
+    color: beige;
+    text-align: center;
+}
+.container>article
+{
+    min-height: 500px;
+    width: 75%;
+    background-color: rgb(218, 209, 209);
+    float: left;
+}
+
+.container>aside
+{
+    min-height: 500px;
+    width: 25%;
+    background-color: rgb(207, 182, 158);
+    float: right;
+    text-align: center;
+    padding: 0px;
+
+}
+.container>footer
+{
+    border-top: 2px double coral;
+    line-height: 25px;
+    background-color:navajowhite;
+    text-align: right;
+    font-variant: small-caps;
+    clear: both;
+    text-align: left;
+}
+.container>nav>a
+{
+    text-decoration: none;
+    margin: 0px 10px;
+}
+.container>nav>a:hover
+{
+    color: thistle;
+    text-decoration: underline;
+}
+.container>article .modau
+{
+    text-align: center;
+}
+.container>aside .phancuoi
+{
+    text-align: left;
+    border:solid black ;
+    background: rgb(178, 185, 178);
+    line-height: 30px;
+}
+.container>aside .phancuoi>ul>a:hover
+{
+    color: red;
+    text-decoration: underline;
+}
+.container>article .bai1>h1>a:hover
+{
+    color:red;
+    text-decoration: underline;
+}
+.container>article .bai2>h2>a:hover
+{
+    color:red;
+    text-decoration:underline;
+}

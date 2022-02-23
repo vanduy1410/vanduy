@@ -1,0 +1,37 @@
+.login{
+    width: 300px;
+    height: 300px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+h2{
+    color: rgb(60, 60, 196);
+    font-family: sans-serif;
+}
+input
+{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 20px;
+}
+button{
+    width: 220px;
+    height: 40px;
+    margin-bottom:10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(60, 60, 196);
+}
+.login button:hover{
+    font-size: 15px;
+}
+.login{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
